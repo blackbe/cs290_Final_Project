@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+.popup
+{
+   position: fixed;
+   width: 100%;
+   opacity: 0.9;
+   top:0px;
+   min-height:200px;
+   height:100%;
+   z-index: 100;
+   background: #FFFFFF;
+   font-size: 20px;
+   text-align: center;
+   display:none;
+   
+}
+#login_form
+{
+	position:absolute;
+	width:200px;
+	top:100px;
+	left:45%;
+	background-color:#DDD;
+	padding:10px;
+	border:1px solid #AAA;
+	display:none;
+	z-index:101;
+	-moz-border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #aaa;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px #aaa;
+}
+
+h1
+{ text-transform: uppercase;
+  background-color: #ffffcc;
+  color: #663300;
+  font-size: 1.2em;
+  border-bottom: 1px solid #000000;
+  padding: 5px 0 0 5px;
+  margin-right: 20px;
+clear: left;
+}
+
+/* unvisited link */
+a:link {
+    color: #663300;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #663300;
+    text-decoration: none;
+
+}
+
+/* mouse over link */
+a:hover {
+    color: #663300;
+    text-decoration: none;
+
+}
+
+/* selected link */
+a:active {
+    color: #663300;
+    text-decoration: none;
+
+}
+button {
+    color: #663300;
+    border-color: #663300;
+}
+
+button:hover {
+    color: #663300;
+    border-color: #663300;
+    background-color: #ffffcc;
+}
+input[type=submit] {
+	border-color: #663300;
+}
+input[type=submit]:focus {
+	background-color:#ffffcc;
+	border-color: #663300;
+}
